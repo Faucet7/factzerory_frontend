@@ -1,5 +1,92 @@
-# Vue 3 + Vite
+# 电子商务网站开发与在线部署项目
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## 实验信息
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+- **实验题目**：设计并实现一个电子商务网站的开发和在线部署。
+- **姓名**：綦鑫鹏
+- **学号**：202230445167
+- **班级**：22网络工程
+- **提交日期**：2024-12-9
+- **代码托管地址**：[后端链接](https://github.com/Faucet7/backend-express)
+- **部署在线网站**：[factzerory.fun](http://factzerory.fun)
+- **测试账号口令**：扫码登录/无
+
+## 实验概述
+
+本项目旨在设计并实现一个完整的电子商务网站，包括前端用户界面和后端服务，并将其在线部署。网站提供顾客和销售两端的基本功能，以满足电子商务的基本需求。
+
+## 基本功能要求
+
+### 顾客端功能
+
+- 用户的注册、登录、注销
+- 展示产品列表
+- 购买流程（浏览/查询->添加至购物车->付款->发送电子邮件确认收货）
+- 查看订单状态和历史
+
+### 销售端功能
+
+- 商品目录的管理（增删改等操作）
+- 订单管理、销售统计报表
+- 客户管理、客户的浏览/购买日志记录
+
+## 实验环境和工具
+
+- **前端框架**：Vue 3
+- **后端框架**：Express.js
+- **数据库**：微信云托管数据库
+- **云托管平台**：微信云托管
+- **版本控制**：Git
+- **代码托管平台**：GitHub 或 Gitee
+- **其他工具**：Node.js, npm/yarn, Visual Studio Code
+
+## 项目结构
+
+项目分为两个主要部分：前端和后端。
+
+- **前端**：使用Vue 3构建的用户界面，包括注册、登录、商品浏览、购物车管理、订单查看等功能。
+- **后端**：使用Express.js构建的API接口，处理用户请求，包括用户管理、商品管理、订单处理等。
+
+## 安装与运行
+
+1. **克隆项目**：
+   ```bash
+   git clone [GitHub/Gitee 链接]
+   cd [项目名称]
+   ```
+
+2. **安装依赖**：
+   ```bash
+   npm install 或 yarn install
+   ```
+
+3. **启动项目**：
+   - **前端**：
+     ```bash
+     npm run serve 或 yarn serve
+     ```
+   - **后端**：
+     ```bash
+     npm run start 或 yarn start
+     ```
+
+## 部署
+
+项目已部署至微信云托管平台，访问[factzerory.fun](http://factzerory.fun)即可查看在线网站。
+
+## 测试账号
+
+由于项目采用扫码登录，测试账号口令为“扫码登录/无”。
+
+## 贡献与反馈
+
+欢迎对本项目提出宝贵的意见和建议，您可以通过以下方式联系我：
+
+- **GitHub/Gitee Issues**：提交问题或功能请求。
+- **Email**：[1966638281@qq.com]
+
+感谢您的参与和支持！
+
+---
+
+
